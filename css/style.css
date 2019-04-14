@@ -1,6 +1,38 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 2em;
+  font-weight: bold;
+}
+
+h3 {
+  font-style: italic;
 }
 
 nav {
@@ -8,6 +40,31 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.author {
+  line-height: 3em;
+  font-weight: bold;
+  font-style: normal;
+  vertical-align: baseline;
+}
+
+.story-text {
+  line-height: 2em;
+}
+
+p {
+  text-indent: 50px;
 }
 
 .logo {
@@ -20,7 +77,17 @@ nav {
 }
 
 .medium-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 70%;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 2em;
 }
 
 .left, .right {
